@@ -7,6 +7,7 @@
 
 //branch : first change
 
+//branch : second change
 
 #define TERMDB_FOLDER ("WLDIR") 
 // -- ÅäÖÃÎÄ¼şÄ¿Â¼ "c:\\windows\\system32\\WLDIR\\"
