@@ -11,44 +11,46 @@
 
 //branch master change : 2022-01-15 15:38
 
+//branch master changeï¼š 2022-01-15 16:38
+
 #define TERMDB_FOLDER ("WLDIR") 
-// -- ÅäÖÃÎÄ¼şÄ¿Â¼ "c:\\windows\\system32\\WLDIR\\"
-// -- ·şÎñÆ÷·¢ËÍ¹ıÀ´µÄÍêÕûĞÔÊı¾İ "c:\\windows\\system32\\WLDIR\\applications.dat"
+// -- é…ç½®æ–‡ä»¶ç›®å½• "c:\\windows\\system32\\WLDIR\\"
+// -- æœåŠ¡å™¨å‘é€è¿‡æ¥çš„å®Œæ•´æ€§æ•°æ® "c:\\windows\\system32\\WLDIR\\applications.dat"
 #define APPLICATION_INTEGRITY_DB ("applications.dat")  
 
 #define DIGEST_CONFIGURE_DB ("DigestConf.dat")
 #define	GUARD_FILES_DB ("GuardFiles.dat")
 
-// -- ±¾µØÏµÍ³µÄÍêÕûĞÔÊı¾İ "c:\\windows\\system32\\WLDIR\\System.dat"
+// -- æœ¬åœ°ç³»ç»Ÿçš„å®Œæ•´æ€§æ•°æ® "c:\\windows\\system32\\WLDIR\\System.dat"
 #define NATIVE_INTEGRITY_DB ("System.dat")
 
 #define WR_TERMDB_FOLDER (L"WLDIR")
-//#define WR_APPLICATION_INTEGRITY_DB (L"applications.dat") //ÔİÎ´Ê¹ÓÃ£¬É¾³ı
+//#define WR_APPLICATION_INTEGRITY_DB (L"applications.dat") //æš‚æœªä½¿ç”¨ï¼Œåˆ é™¤
 #define WR_NATIVE_INTEGRITY_DB (L"System.dat")
 #define WR_NATIVE_INTEGRITY_AUX_DB (L"SystemAux.dat")
-//#define WR_DIGEST_CONFIGURE_DB (L"DigestConf.dat") //Ö¤Êé¹¦ÄÜÏà¹ØÎÄ¼ş£¬É¾³ı
+//#define WR_DIGEST_CONFIGURE_DB (L"DigestConf.dat") //è¯ä¹¦åŠŸèƒ½ç›¸å…³æ–‡ä»¶ï¼Œåˆ é™¤
 #define WR_GUARD_FILES_DB (L"GuardFiles.dat")
 #define WR_MAC_OBJECT_DB (L"WLPly_AC_MAC_ObjAndSubConfig.dat")
 #define WR_MAC_GROUP_DB (L"WLPly_AC_MAC_GlobalConfig.dat")
 #define WR_MAC_EXCEPTION_DB (L"WLPly_AC_MAC_ExceptionConfig.dat")
 #define WR_FILEPROTECT_SERVER (L"WLPly_HostReinforcementFileProtect_server.dat")
 #define WR_REGPROTECT_SERVER (L"WLPly_HostReinforcementRegProtect_server.dat")
-//#define WR_PROCESSAUDIT_SERVER (L"WLPly_HostAuditProcess_server.dat") //²»ÔÙÇø·ÖserverºÍclient
+//#define WR_PROCESSAUDIT_SERVER (L"WLPly_HostAuditProcess_server.dat") //ä¸å†åŒºåˆ†serverå’Œclient
 
 #define WR_POLICY_DATA_W_WORK_SHEET	(L"WLWorkSheet.dat")	
 //V200R002C02
-#define WR_FILEPROTECT_DB (L"WLPly_HostReinforcementFileProtect.dat") //ÎÄ¼ş±£»¤
-#define WR_FILEPROTECTEXCEPTION_DB (L"WLPly_HostReinforcementFileProtectException.dat")//ÎÄ¼ş±£»¤ÀıÍâ
-#define WR_REGPROTECT_DB (L"WLPly_HostReinforcementRegProtect.dat") //×¢²á±í±£»¤
-#define WR_REGPROTECTEXECPTION_DB (L"WLPly_HostReinforcementRegProtectException.dat") //×¢²á±í±£»¤ÀıÍâ
-#define WR_PROCESSAUDIT_CLIENT (L"WLPly_WhiteListAuditProcess.dat") //Î»ÓÚconfig\WhiteList ÄÚ
+#define WR_FILEPROTECT_DB (L"WLPly_HostReinforcementFileProtect.dat") //æ–‡ä»¶ä¿æŠ¤
+#define WR_FILEPROTECTEXCEPTION_DB (L"WLPly_HostReinforcementFileProtectException.dat")//æ–‡ä»¶ä¿æŠ¤ä¾‹å¤–
+#define WR_REGPROTECT_DB (L"WLPly_HostReinforcementRegProtect.dat") //æ³¨å†Œè¡¨ä¿æŠ¤
+#define WR_REGPROTECTEXECPTION_DB (L"WLPly_HostReinforcementRegProtectException.dat") //æ³¨å†Œè¡¨ä¿æŠ¤ä¾‹å¤–
+#define WR_PROCESSAUDIT_CLIENT (L"WLPly_WhiteListAuditProcess.dat") //ä½äºconfig\WhiteList å†…
 
 //V3R1--->wlmgt
 #define WL_SCAN_PE_FILE  (L"WLScanPeFile.txt")
 #define WL_CALCULATE_HASH_FILE  (L"WLCalculateHashFile.txt")
 
-#define WR_TRACEINSTALL_APPSTORE_DB (L"App.dat") ////Î»ÓÚconfig\WhiteList ÄÚ
-#define WR_SELFUPDATE_APPSTORE_DB (L"WLSelfUpdate.dat") ////Î»ÓÚconfig\WhiteList ÄÚ
+#define WR_TRACEINSTALL_APPSTORE_DB (L"App.dat") ////ä½äºconfig\WhiteList å†…
+#define WR_SELFUPDATE_APPSTORE_DB (L"WLSelfUpdate.dat") ////ä½äºconfig\WhiteList å†…
 
-#define WR_TRACEINSTALL_APPSTORE_TXT (L"AppStore.txt") ////Î»ÓÚconfig\WhiteList ÄÚ
+#define WR_TRACEINSTALL_APPSTORE_TXT (L"AppStore.txt") ////ä½äºconfig\WhiteList å†…
 #endif
