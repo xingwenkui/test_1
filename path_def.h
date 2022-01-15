@@ -13,6 +13,8 @@
 
 //branch master change： 2022-01-15 16:38
 
+//branch master change： 2022-01-15 16:53
+
 #define TERMDB_FOLDER ("WLDIR") 
 // -- 配置文件目录 "c:\\windows\\system32\\WLDIR\\"
 // -- 服务器发送过来的完整性数据 "c:\\windows\\system32\\WLDIR\\applications.dat"
